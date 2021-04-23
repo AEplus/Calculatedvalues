@@ -21,12 +21,11 @@ if(and(Width = 60 mm, Height = 60 mm), "70.56.11.11", if(and(Width = 100 mm, Hei
 
 if(and(Width = 60 mm, Height = 100 mm), "70.56.11.21", if(and(Width = 100 mm, Height = 100 mm), "70.56.11.22",if(and(Width = 150 mm, Height = 100 mm), "70.56.11.23", if(and(Width = 200 mm, Height = 100 mm), "70.56.11.24", if(and(Width = 300 mm, Height = 100 mm), "70.56.11.25", if(and(Width = 400 mm, Height = 100 mm), "70.56.11.26", if(and(Width = 500 mm, Height = 100 mm), "70.56.11.27", if(and(Width = 600 mm, Height = 100 mm), "70.56.11.28", ""))))))))
 
-
 # Dakgoten in juiste volgorde
 if(and(Width = 60 mm, Height = 60 mm) , "70.70.70.70",
 	if(and(Width = 80 mm, Height = 60 mm) , "40.40.40.40" ,
 		if(and(Width = 100 mm, Height = 60 mm), "10..0.0.0",
 		if (and (Width )))))
 
-
-BEGIN GEO-IT 
+# BEGIN GEO-IT
+ 
