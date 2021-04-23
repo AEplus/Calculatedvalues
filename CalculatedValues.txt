@@ -28,4 +28,4 @@ if(and(Width = 60 mm, Height = 60 mm) , "70.70.70.70",
 		if (and (Width )))))
 
 # BEGIN GEO-IT
- 
+ if([AE Type Geo-IT] = 405020, "40.50.20.12", "") werkt!!
