@@ -324,7 +324,25 @@ if(and(and(AE GeoIT Link = 605120 , [Diameter (mm)] = 12), AE Opmeting = 600), "
 																	if(and(and(AE GeoIT Link = 605120 , [Diameter (mm)] = 76,1), AE Opmeting = 600), "60.53.42.20" ,
 																			if(and(and(AE GeoIT Link = 605120 , [Diameter (mm)] = 88,9), AE Opmeting = 600), "60.53.42.21" ,
 																					if(and(and(AE GeoIT Link = 605120 , [Diameter (mm)] = 108), AE Opmeting = 600), "60.53.42.22" ,
-
+if(AE GeoIT Link = 6071 , "60.71.11" ,
+if(AE GeoIT Link = 611110 , "61.11.10" ,
+	if(AE GeoIT Link = 611120 , "61.11.20" , 
+if(AE GeoIT Link = 611211 , "61.12.11" , 
+	if(AE GeoIT Link = 611212 , "61.12.12" , 
+		if(AE GeoIT Link = 611213 , "61.12.13" , 
+if(AE GeoIT Link = 612110 , "61.21.10" , 
+	if(AE GeoIT Link = 612120 , "61.21.20" , 
+if(AE GeoIT Link = 612210 , "61.22.10" ,
+if(AE GeoIT Link = 612310 , "61.23.10" ,
+if(AE GeoIT Link = 613110 , "61.31.10" , 
+	if(AE GeoIT Link = 613120 , "61.31.20" , 
+		if(AE GeoIT Link = 613130 , "61.31.30" , 
+			if(AE GeoIT Link = 613140 , "61.31.40" , 
+				if(AE GeoIT Link = 613150 , "61.31.50" , 
+					if(AE GeoIT Link = 613160 , "61.31.60" , 
+if(AE GeoIT Link = 613210 , "61.32.10" , 
+	if(AE GeoIT Link = 613220 , "61.32.20" , 
+		if(AE GeoIT Link = 613230 , "61.32.30" , 
 
 
 
