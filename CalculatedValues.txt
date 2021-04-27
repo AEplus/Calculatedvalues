@@ -343,10 +343,21 @@ if(AE GeoIT Link = 613110 , "61.31.10" ,
 if(AE GeoIT Link = 613210 , "61.32.10" , 
 	if(AE GeoIT Link = 613220 , "61.32.20" , 
 		if(AE GeoIT Link = 613230 , "61.32.30" , 
+if(AE GeoIT Link = 6144, "61.44.11" , 
+if(and(and(AE GeoIT Link = 6151 , AE Width = 800) , AE Length = 800) , "61.51.11" ,
+	if(and(and(AE GeoIT Link = 6151 , AE Width = 900) , AE Length = 900) , "61.51.12" ,
+		if(and(and(AE GeoIT Link = 6151 , AE Width = 1000) , AE Length = 1000) , "61.51.13" ,
+if(and(and(AE GeoIT Link = 6152 , AE Width = 800) , AE Length = 800) , "61.52.11" ,
+	if(and(and(AE GeoIT Link = 6152 , AE Width = 800) , AE Length = 900) , "61.52.12" ,
+	if(and(and(AE GeoIT Link = 6152 , AE Width = 900) , AE Length = 800) , "61.52.12" ,
+		if(and(and(AE GeoIT Link = 6152 , AE Width = 1000) , AE Length = 800) , "61.52.13" ,
+		if(and(and(AE GeoIT Link = 6152 , AE Width = 800) , AE Length = 1000) , "61.52.13" ,
+			if(and(and(AE GeoIT Link = 6152 , AE Width = 900) , AE Length = 900) , "61.52.14" ,
+				if(and(and(AE GeoIT Link = 6152 , AE Width = 1000) , AE Length = 900) , "61.52.15" ,
+				if(and(and(AE GeoIT Link = 6152 , AE Width = 900) , AE Length = 1000) , "61.52.15" ,
+					if(and(and(AE GeoIT Link = 6152 , AE Width = 1000) , AE Length = 1000) , "61.52.16" ,
 
 
 
-
-
-
-, ""	))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+, ""	
+))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
