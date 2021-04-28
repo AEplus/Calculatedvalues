@@ -1,9 +1,3 @@
-if(and([AE GeoIT Link] = 6011, [Diameter (mm)] = 32 mm), "60.11.11", if(and([AE GeoIT Link] = 6011, [Diameter (mm)] = 40 mm), "60.11.12", ""))
-
-// Begin met Sanitair, 
-// Afvoer buizen PVC lines: 6-15
-// Afvoer buizen PE lines: 
-
 if(and(AE GeoIT Link = 6011, [Diameter (mm)] = 32 mm), "60.11.11", 
 	if(and(AE GeoIT Link = 6011, [Diameter (mm)] = 40 mm), "60.11.12", 
 		if(and(AE GeoIT Link = 6011, [Diameter (mm)] = 50 mm), "60.11.13",
@@ -60,10 +54,8 @@ if(AE GeoIT Link = 601411 =, " 60.14.11" ,
 			if(AE GeoIT Link = 601414, "60.14.14",
 				if(AE GeoIT Link = 601415, "60.14.15", 
 					if(AE GeoIT Link = 601416, "60.14.16", 
-// Verluchtingsbuizen 
-
-//Klokrooster
-
+if(AE GeoIT Link = 60331111 , "60.31.11.11" , 
+	if(AE GeoIT Link = 60331211 , "60.33.12.11" , 
 if(and(AE GeoIT Link = 605110 , [Diameter (mm)] = 12), "60.51.10.11" ,
 	if(and(AE GeoIT Link = 605110 , [Diameter (mm)] = 18), "60.51.10.12" ,
 		if(and(AE GeoIT Link = 605110 , [Diameter (mm)] = 22), "60.51.10.13" ,
@@ -384,23 +376,35 @@ if(AE GeoIT Link = 624520 , "62.45.20" ,
 if(AE GeoIT Link = 624530 , "62.45.30" ,
 if(AE GeoIT Link = 624610 , "62.46.10" , 
 if(AE GeoIT Link = 624620 , "62.46.20" , 
-
 if(AE GeoIT Link = 625120 , "62.51.20" , 
 if(AE GeoIT Link = 625220 , "62.52.20" , 
 if(Ae GeoIT Link = 625320 , "62.53.20" ,
 if(AE GeoIT Link = 626120 , "62.61.20" , 
 if(AE GeoIT Link = 626220 , "62.62.20" , 
 if(AE GeoIT Link = 626420 , "62.64.20" , 
-
 if(AE GeoIT Link = 629211 , "62.92.11" , 
 if(AE GeoIT Link = 629212 , "62.92.12" , 
 if(AE GeoIT Link = 629213 , "62.92.13" , 
 if(AE GeoIT Link = 629214 , "62.92.14" , 
-
 if(AE GeoIT Link = 633211 , "63.32.11" , 
 if(AE GeoIT Link = 633411 , "63.34.11" , 
-
 if(AE GeoIT Link = 638110 , "63.81.10" ,
+if(AE GeoIT Link = 671110 , "67.11.10" ,
+if(AE GeoIT Link = 671111 , "67.11.11" ,
+if(AE GeoIT Link = 671112 , "67.11.12" ,
+if(AE GeoIT Link = 671113 , "67.11.13" ,
+if(AE GeoIT Link = 671114 , "67.11.14" ,
+if(AE GeoIT Link = 671211 , "67.12.11" ,
+if(AE GeoIT Link = 671212 , "67.12.12" ,
+if(AE GeoIT Link = 671213 , "67.12.13" ,
+if(AE GeoIT Link = 671214 , "67.12.14" ,
+if(AE GeoIT Link = 671311 , "67.13.11" ,
+if(AE GeoIT Link = 671312 , "67.13.12" ,
+if(AE GeoIT Link = 671313 , "67.13.13" ,
+if(AE GeoIT Link = 671314 , "67.13.14" ,
+if(AE GeoIT Link = 671315 , "67.13.15" ,
+if(AE GeoIT Link = 671411 , "67.14.11" , 
+
 
 
 
