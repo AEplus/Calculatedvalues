@@ -404,10 +404,37 @@ if(AE GeoIT Link = 671313 , "67.13.13" ,
 if(AE GeoIT Link = 671314 , "67.13.14" ,
 if(AE GeoIT Link = 671315 , "67.13.15" ,
 if(AE GeoIT Link = 671411 , "67.14.11" , 
-
-
-
+if(and(AE GeoIT Link = 605140 , Diameter (mm) = 50) , "67.31.10.11" , 
+	if(and(AE GeoIT Link = 605140 , Diameter (mm) = 63) , "67.31.10.12" , 
+		if(and(AE GeoIT Link = 605140 , Diameter (mm) = 75) , "67.31.10.13" , 
+			if(and(AE GeoIT Link = 605140 , Diameter (mm) = 90) , "67.31.10.14" ,
+				if(and(AE GeoIT Link = 605140 , Diameter (mm) = 110) , "67.31.10.15" ,  
+					if(and(AE GeoIT Link = 605140 , Diameter (mm) = 125) , "67.31.10.16" ,
+						if(and(AE GeoIT Link = 605140 , Diameter (mm) = 160) , "67.31.10.17" , 
+if(AE GeoIT Link = 67221011 , "67.22.10.11" , 
+	if(AE GeoIT Link = 67221012 , "67.22.10.12" , 
+if(AE GeoIT Link = 67222011 , "67.22.20.11" , 
+	if(AE GEoIT Link = 67222012 , "67.22.20.12" ,
+if(AE GEoIT Link = 672510 , "67.25.10" , 
+if(and(AE GeoIT Link = 673110 , Diameter (mm) = 28) , "67.31.10.11" , 
+	if(and(AE GeoIT Link = 673110 , Diameter (mm) = 35) , "67.31.10.12" , 
+		if(and(AE GeoIT Link = 673110 , Diameter (mm) = 42) , "67.31.10.13" , 
+			if(and(AE GeoIT Link = 673110 , Diameter (mm) = 54) , "67.31.10.14" , 
+				if(and(AE GeoIT Link = 673110 , Diameter (mm) = 76.1) , "67.31.10.15" , 
+					if(and(AE GeoIT Link = 673110 , Diameter (mm) = 88.9) , "67.31.10.16" , 
+						if(and(AE GeoIT Link = 673110 , Diameter (mm) = 108) , "67.31.10.17" , 
+							if(and(AE GeoIT Link = 673110 , Diameter (mm) = 132) , "67.31.10.18" , 
+if(and(AE GeoIT Link = 673120 , Diameter (mm) = 28) , "67.31.20.11" , 
+	if(and(AE GeoIT Link = 673120 , Diameter (mm) = 35) , "67.31.20.12" , 
+		if(and(AE GeoIT Link = 673120 , Diameter (mm) = 42) , "67.31.20.13" , 
+			if(and(AE GeoIT Link = 673120 , Diameter (mm) = 54) , "67.31.20.14" , 
+				if(and(AE GeoIT Link = 673120 , Diameter (mm) = 76.1) , "67.31.20.15" , 
+					if(and(AE GeoIT Link = 673120 , Diameter (mm) = 88.9) , "67.31.20.16" , 
+						if(and(AE GeoIT Link = 673120 , Diameter (mm) = 108) , "67.31.20.17" , 
+							if(and(AE GeoIT Link = 673120 , Diameter (mm) = 132) , "67.31210.18" , 
+if(AE GeoIT Link = 673131 , "67.31.31" , 
+if(AE GEoIT Link = 673132 , "67.31.32" , 
 
 
 , ""	
-))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
