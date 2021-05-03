@@ -1,0 +1,6 @@
+if(AE GeoIT Link = 632111 , "63.21.11" , 
+if(AE GeoIT Link = 633211 , "63.32.11" , 
+if(AE GeoIT Link = 6334 , "63.34" , 
+if(AE GeoIT Link = 634111 , "63.41.11" ,
+if(AE GeoIT Link = 636111 , "63.61.11" , 
+)))))
