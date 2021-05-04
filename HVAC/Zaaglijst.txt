@@ -1,0 +1,8 @@
+If(and(AE GeoIT Link = 641111 , [Diameter (mm)] = 18) , "64.11.11.11" , 
+    if(and(AE GeoIT Link = 641111 , [Diameter (mm)] = 18) , "64.11.11.12" , 
+            if(and(AE GeoIT Link = 641111 , [Diameter (mm)] = 18) , "64.11.11.13" , 
+                    if(and(AE GeoIT Link = 641111 , [Diameter (mm)] = 18) , "64.11.11.14" , 
+                            if(and(AE GeoIT Link = 641111 , [Diameter (mm)] = 18) , "64.11.11.12" , 
+                                    if(and(AE GeoIT Link = 641111 , [Diameter (mm)] = 18) , "64.11.11.12" , 
+                                            if(and(AE GeoIT Link = 641111 , [Diameter (mm)] = 18) , "64.11.11.12" , 
+                                                    if(and(AE GeoIT Link = 641111 , [Diameter (mm)] = 18) , "64.11.11.12" , 
