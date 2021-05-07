@@ -64,6 +64,6 @@ if(and(and(AE GeoIT Link = 6052, AE Collecter diameter = 40 mm), AE Collector aa
 									if(and(and(AE GeoIT Link = 6052, AE Collecter diameter = 40 mm), AE Collector aantal = 11), "60.52.12.20",
 										if(and(and(AE GeoIT Link = 6052, AE Collecter diameter = 35 mm), AE Collector aantal = 12), "60.52.12.21",
 										if(and(and(AE GeoIT Link = 6052, AE Collecter diameter = 40 mm), AE Collector aantal = 12), "60.52.12.21",
-if(AE GeoIT Link = 6380 , "63.81.10" ,
 if(AE GeoIT Link = 6332 , "63.32.11" ,
+if(AE GeoIT Link = 6380 , "63.81.10" ,
 "" ))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
