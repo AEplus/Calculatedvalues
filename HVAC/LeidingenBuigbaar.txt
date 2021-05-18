@@ -13,3 +13,4 @@ if(and(AE GeoIT Link = 605134 , [Diameter (mm)] = 16), "65.31.33.11" ,
         if(and(AE GeoIT Link = 605134 , [Diameter (mm)] = 26), "65.31.33.13" , 
             if(and(AE GeoIT Link = 605134 , [Diameter (mm)] = 32), "65.31.33.14" ,
                 if(and(AE GeoIT Link = 605134 , [Diameter (mm)] = 40), "65.31.33.15" ,  
+, ""))))))))))))))))

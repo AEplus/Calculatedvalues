@@ -1,0 +1,1 @@
+if(and(AE GeoIT Link = 681121, AE Opmeting = 100), "68.11.22.11", if(and(AE GeoIT Link = 681121, AE Opmeting = 200), "68.11.23.11", if(AE GeoIT Link = 681121 , "68.11.21.11")))
