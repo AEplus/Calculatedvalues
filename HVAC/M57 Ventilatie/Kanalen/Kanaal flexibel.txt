@@ -1,0 +1,9 @@
+if(and(AE GeoIT Link = 681310 , Diameter = 80), "68.13.10.11" ,
+    if(and(AE GeoIT Link = 681310 , Diameter = 100), "68.13.10.12" , 
+        if(and(AE GeoIT Link = 681310 , Diameter = 125), "68.13.10.13" , 
+            if(and(AE GeoIT Link = 681310 , Diameter = 160), "68.13.10.14" , 
+                if(and(AE GeoIT Link = 681310 , Diameter = 200), "68.13.10.15" , 
+                    if(and(AE GeoIT Link = 681310 , Diameter = 250), "68.13.10.16" ,
+                        if(and(AE GeoIT Link = 681310 , Diameter = 315), "68.13.10.17" , 
+                            if(and(AE GeoIT Link = 681310 , Diameter = 355), "68.13.10.18" ,  
+"" ))))))))
